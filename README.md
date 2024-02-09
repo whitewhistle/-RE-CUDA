@@ -23,7 +23,7 @@ The model can be trained by altering the Namespace object in the last cell and r
 args=Namespace(network='resnet32', epochs=200, batch_size=128, update_epoch=1,
                lr=0.1, lr_decay=0.01, momentum=0.9, wd=0.0002, nesterov=False,
                scheduler='warmup', warmup=5, aug_prob=0.5, cutout=True, cmo=False,
-               posthoc_la=False, cuda=True, aug_type='randaug', sim_type='none', max_d=30,
+               posthoc_la=False, cuda=True, aug_type='none', sim_type='none', max_d=30,
                num_test=10, accept_rate=0.6, verbose=False, use_norm=False,
                out='/kaggle/working/log3',
                data_dir='~/dataset/', workers=4, seed='None',
